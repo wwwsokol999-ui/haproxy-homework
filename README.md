@@ -1,5 +1,13 @@
 # HAProxy Homework
 
+## Конфигурационные файлы
+
+Task 1 (L4 Round Robin):
+configs/task1-haproxy.cfg
+
+Task 2 (L7 Weighted Round Robin):
+configs/task2-haproxy.cfg
+
 ## Задание 1 (L4 Round-robin)
 
 ### Запуск двух simple python server
