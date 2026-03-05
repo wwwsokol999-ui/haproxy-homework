@@ -12,6 +12,11 @@ echo "srv2:8082" | sudo tee /opt/srv2/index.html
 python3 -m http.server 8081 --directory /opt/srv1
 python3 -m http.server 8082 --directory /opt/srv2
 ```
+
+![Task1](screenshots/task1_roundrobin.png)
+
+![Task1-2](screenshots/task1_roundrobin1.png)
+
 ## Задание 2 — Weighted Round Robin (L7) только для example.local
 
 Запущены 3 сервера:
@@ -28,3 +33,10 @@ for i in {1..18}; do
   curl -s --http1.1 -H "Connection: close" http://example.local/
 done
 ```
+Запрос без Host header (403):
+
+![Task2-403](screenshots/task2_403.png)
+
+Запрос с Host example.local:
+
+![Task2](screenshots/task2.png)
