@@ -2,10 +2,12 @@
 
 ## Конфигурационные файлы
 
+Task 1
 [Конфигурационный файл](configs/task1-haproxy.cfg)
 
-Task 2 (L7 Weighted Round Robin):
-configs/task2-haproxy.cfg
+Task 2
+[Конфигурационный файл](configs/task2-haproxy.cfg)
+
 
 ## Задание 1 (L4 Round-robin)
 
