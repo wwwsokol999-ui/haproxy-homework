@@ -49,3 +49,5 @@ done
 Запрос с Host example.local:
 
 ![Task2](screenshots/task2.png)
+![task2_balancing](screenshots/task2_balancing.png)
+task2_balancing.png
